@@ -1,0 +1,58 @@
+文章表
+id
+title 标题
+author 作者
+image 图片
+description 描述
+type 类型 1文本，2图片，3视频，4音频，5链接
+content 正文
+tag 标签
+read_type 阅读状态 0正常，1密码
+password 密码
+material_id 素材ID
+
+
+文章分类表
+id
+cate_name 分类名称
+status 可用状态
+sort 排序
+
+用户表
+id
+username
+password
+
+菜单表
+id
+pid
+name
+url
+status
+sort
+
+评论表
+id
+essay_id 文章ID
+name 用户名
+content 内容
+type 类型 1评论，2回复
+pid 默认为0，类型为回复时，为评论的ID
+status 状态
+
+素材表
+id
+title
+url
+
+网站导航表
+id
+cate_id 分类id
+site_name 网站名
+ico ico路径
+site_url 网址
+
+网站导航分类表
+id
+cate_name 分类名称
+sort  排序
