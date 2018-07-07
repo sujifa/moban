@@ -23,14 +23,6 @@ id
 username
 password
 
-菜单表
-id
-pid
-name
-url
-status
-sort
-
 评论表
 id
 essay_id 文章ID
@@ -44,15 +36,3 @@ status 状态
 id
 title
 url
-
-网站导航表
-id
-cate_id 分类id
-site_name 网站名
-ico ico路径
-site_url 网址
-
-网站导航分类表
-id
-cate_name 分类名称
-sort  排序
